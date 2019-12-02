@@ -18,8 +18,7 @@ mongoose.connect('mongodb://localhost/test').then(() => {
 }).then(() => {
   return seedWidget();
 }).then(() => {
-  // return seedUserWidget();
-  return
+  return seedUserWidget();
 }).then(() => {
   return seedUser();
 }).catch(err => {
