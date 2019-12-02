@@ -1,0 +1,28 @@
+{
+  "name": "@takahe/takahe-mongoose-models",
+  "version": "1.0.0",
+  "description": "These are the mongoose model's for the takahe mirror. They run on multiple servers, so we use a npm package to avoid duplicate code",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nick-Caris/takahe-mongoose-models.git"
+  },
+  "keywords": [
+    "mongoose",
+    "takhe",
+    "mongo",
+    "models"
+  ],
+  "author": "Nick Alexander Caris",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Nick-Caris/takahe-mongoose-models/issues"
+  },
+  "homepage": "https://github.com/Nick-Caris/takahe-mongoose-models#readme",
+  "dependencies": {
+    "mongoose": "^5.7.13"
+  }
+}
