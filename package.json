@@ -1,6 +1,6 @@
 {
   "name": "@takahe/takahe-mongoose-models",
-  "version": "1.0.0",
+  "version": "1.0.0.1",
   "description": "These are the mongoose model's for the takahe mirror. They run on multiple servers, so we use a npm package to avoid duplicate code",
   "main": "app.js",
   "scripts": {
