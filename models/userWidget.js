@@ -9,6 +9,6 @@ const userWidgetSchema = mongoose.Schema({
 
 });
 
-mongoose.model('Widget', userWidgetSchema);
+mongoose.model('userWidget', userWidgetSchema);
 
 module.exports = userWidgetSchema;
