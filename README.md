@@ -4,7 +4,7 @@ These are the mongoose model's for the takahe mirror. They run on multiple serve
 
 ## Installation
 
-1. Run `npm install npm i @takahe/takahe-mongoose-models`
+1. Run `npm i @takahe/takahe-mongoose-models`
 
 ## Running the application
 
