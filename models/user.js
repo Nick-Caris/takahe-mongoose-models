@@ -6,8 +6,14 @@ const userWidgetSchema = require('./userWidget');
 
 const userSchema = mongoose.Schema({
   name: {type: String, required: true},
-  images: [fileSchema],
-  widgets: [userWidgetSchema],
+  images: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'File'
+  }],
+  widgets: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'UserWidget'
+  }],
 });
 
 mongoose.model('User', userSchema);
