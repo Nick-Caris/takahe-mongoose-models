@@ -28,7 +28,7 @@ mongoose.connect('mongodb://localhost/test').then(() => {
 });
 const file = new File({name: 'test', contentType: 'image'});
 const widget = new Widget({name: 'testWidget', url: 'www.google.com', lastModified: new Date(), version: '1.0'});
-const userWidget = new UserWidget({widget: widget, position: 0, active: 1});
+const userWidget = new UserWidget({widget: widget, active: 1});
 
 seedFile = async () => {
   await File.deleteMany();

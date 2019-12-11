@@ -5,6 +5,7 @@ const widgetSchema = mongoose.Schema({
   name: {type: String, required: true},
   url: {type: String, required: true},
   commands: [{type: String}],
+  icon: String,
   description: {},
   lastModified: {type: Date, required: true},
   version: {type: String, required: true},
