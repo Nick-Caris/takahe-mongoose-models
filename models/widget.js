@@ -9,6 +9,11 @@ const widgetSchema = mongoose.Schema({
   description: {},
   lastModified: {type: Date, required: true},
   version: {type: String, required: true},
+  apiKey: {
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'ApiKey',
+    required: false,
+  },
 });
 
 widgetSchema.pre('save', function (next) {
